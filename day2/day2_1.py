@@ -26,6 +26,7 @@ while True:
         print("{} written!".format(img_name))
         img_counter += 1
 
+    # Day 2 exercise
     if loop_counter == 100 or loop_counter == 200 or loop_counter == 300:
         img_name = "opencv_loop_{}.png".format(loop_counter)
         cv2.imwrite(img_name, frame)
